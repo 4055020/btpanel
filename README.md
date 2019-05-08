@@ -2,7 +2,7 @@
 - 宝塔面板备份
 
 ### 安装
-- yum install -y wget && wget -O install.sh https://raw.githubusercontent.com/4055020/shell/install.sh && sh install.sh
+- yum install -y wget && wget -O install.sh https://raw.githubusercontent.com/4055020/btpanel/master/install.sh && sh install.sh
 
 
 ### 命令
