@@ -18,6 +18,12 @@ elif [ -f /www/server/panel/plugin/beta/config.conf ]; then
 fi
 
 
+public_file=/www/server/panel/install/public.sh
+if [ ! -f $public_file ];then
+	wget -O $public_file http://download.bt.cn/install/public.sh -T 5;
+fi
+. $public_file
+
 download_Url='https://raw.githubusercontent.com/4055020/btpanel/master';
 setup_path=/www
 version=''
