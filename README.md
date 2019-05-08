@@ -6,7 +6,7 @@
 
 ### 切换
 - wget -O update.sh https://raw.githubusercontent.com/4055020/btpanel/master/update.sh && bash update.sh pro
-wget -O update.sh https://raw.githubusercontent.com/4055020/btpanel/master/update.sh && bash update.sh free
+- wget -O update.sh https://raw.githubusercontent.com/4055020/btpanel/master/update.sh && bash update.sh free
 
 ### 插件
 - cd /www/server/panel/data touch userInfo.json && echo > /www/server/panel/data/userInfo.json
