@@ -99,7 +99,7 @@ get_node_url(){
 		fi
 	done
 	if [ $j = 5000 ];then
-		NODE_URL='http://download.bt.cn';
+		NODE_URL='https://raw.githubusercontent.com/4055020/btpanel/master';
 	else
 		NODE_URL=${urls[$j]}
 	fi
